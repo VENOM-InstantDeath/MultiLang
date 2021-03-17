@@ -7,7 +7,7 @@ def id(c)
   return true
 end
 
-print "> "
+print "Input time in seconds: "
 t = gets.chomp
 if not id(t)
   puts "No se ha ingresado un número"

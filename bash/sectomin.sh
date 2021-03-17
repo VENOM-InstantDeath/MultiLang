@@ -7,4 +7,4 @@ for ((i=0;i<${#t};i++));do
 		exit 1
 	fi
 done
-echo $(expr $t / 60}):$(expr $t % 60)
+echo $(expr $t / 60):$(expr $t % 60)
