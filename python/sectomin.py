@@ -1,3 +1,10 @@
+# AUTHOR: Darth Venom
+# CREATED: 16/3/2021
+#
+# ABOUT: Convierte segundos a minutos.
+#
+# DEPENDS ON: ---
+
 t = input("Input time in seconds: ")
 if not t.isdigit:
     print("No se ha ingresado un número")

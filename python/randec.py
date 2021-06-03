@@ -1,3 +1,11 @@
+# AUTHOR: Darth Venom
+# CREATED: 17/3/2021
+#
+# ABOUT: Decisión aleatoria entre una lista
+#        de cosas separadas por comas.
+#
+# DEPENDS ON: ---
+
 import random
 
 def choice(li) -> tuple:
