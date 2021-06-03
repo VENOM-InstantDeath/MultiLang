@@ -1,3 +1,10 @@
+// AUTHOR: Darth Venom
+// CREATED: 17/3/2021
+//
+// ABOUT: Convierte segundos a minutos.
+//
+// DEPENDS ON: ---
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
