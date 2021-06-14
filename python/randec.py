@@ -18,4 +18,5 @@ def choice(li) -> tuple:
     li = list(filter(None, li))
     return random.choices(li)[0]
 
-print(choice(input("Lista: ")))
+if __name__ == "__main__":
+    print(choice(input("Lista: ")))

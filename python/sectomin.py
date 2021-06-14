@@ -5,9 +5,17 @@
 #
 # DEPENDS ON: ---
 
-t = input("Input time in seconds: ")
-if not t.isdigit:
-    print("No se ha ingresado un número")
-    exit(1)
-t = int(t)
-print(f"{int(t/60)}:{t%60}")
+def sectomin(t):
+    if not t.isdigit:
+        return
+    t = int(t)
+    return f"{int(t/60)}:{t%60}"
+
+if __name__ == "__main__":
+    t = input("Input time in seconds: ")
+    response = sectomin(t)
+    if response:
+        print(response)
+    else:
+        print("No se ha ingresado un número")
+        exit(1)

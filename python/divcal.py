@@ -18,11 +18,12 @@ def conv(n):
     if isfloat(n): return float(n)
     if isint(n): return int(n)
 
-N = input("Introduce numerador: ")
-D = input("Introduce denominador: ")
 
-for i in (N,D):
-    if not (isfloat(i) or isint(i)):
-        exit(1)
-
-print(conv(str(conv(N) / conv(D))))
+if __name__ == "__main__":
+    N = input("Introduce numerador: ")
+    D = input("Introduce denominador: ")
+    
+    for i in (N,D):
+        if not (isfloat(i) or isint(i)):
+            exit(1)
+    print(conv(str(conv(N) / conv(D))))
